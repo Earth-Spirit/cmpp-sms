@@ -41,7 +41,7 @@ public class CMPPKeepAlive implements Runnable {
                 }catch (TimeoutException e){
 
                     log.warn(e.getMessage(), e);
-                    client.reconnect();
+                    //client.reconnect();
                 }
 
             }
